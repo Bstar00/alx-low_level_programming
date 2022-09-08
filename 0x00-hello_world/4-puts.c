@@ -1,10 +1,6 @@
-
-
 #include <stdio>                                                                                                                        
 
-                                                                                                                                        
-
-/**                                                                                                                                     
+                                                                                                                                        /**                                                                                                                                     
 
 * main - print the string in the puts function                                                                                          
 
