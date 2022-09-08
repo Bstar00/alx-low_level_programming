@@ -1,1 +1,16 @@
-#include <stdio.h>								/**										*main -	print the string in the puts function					*										*Description : using main function						*this program prints "Programming is like building a multilingual puzzle	*Return 0									*/										int main(void)									{											puts("\""Programming is like building a multilingual puzzle");		        return (0);								}
+#!bin/bash
+
+#include <stdio.h>
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{	
+	char Mystr[] = "\"Programming is like building a multilingual puzzle";
+
+	puts(Mystr);
+
+	return (0);
+}
