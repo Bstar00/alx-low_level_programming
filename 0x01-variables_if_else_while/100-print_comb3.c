@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - print single digit numbers starting from 0
+ * main - Entry point of a function
  *
- *
- * Return : Always 0 (success)
+ * Description: prints single digit numbers starting from 0
+ * Return: returns 0 at the end (success)
  */
 int main(void)
 {	int i, j;
