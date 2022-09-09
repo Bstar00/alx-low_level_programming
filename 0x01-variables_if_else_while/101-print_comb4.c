@@ -1,0 +1,26 @@
+#include <stdio.h>
+/**
+ * main - Entry point of a function
+ *
+ * Description: prints possible combo 0f 3
+ * Return: returns 0 at then end (success)
+ */
+int main(void)
+{	int i, p, m;
+	for (i = 0; i <= 9; i++)
+	{	for (p = 1; p <= 9; p++)
+	{	for (m = 2; m <= 9; m++)	
+	{	if (m > p && p > i)
+	{	putchar(i + '0');
+		putchar(p + '0');
+		putchar(m + '0');
+	{		putchar(',');
+			putchar(' ');
+	}
+	}
+	}
+	}
+	}
+	putchar('\n');
+	return (0);
+}
