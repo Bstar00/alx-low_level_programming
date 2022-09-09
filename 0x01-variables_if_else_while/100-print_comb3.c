@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point of function
+ * main - print single digit numbers starting from 0
+ *
  *
  * Return : Always 0 (success)
  */
@@ -12,9 +13,9 @@ int main(void)
 	{	putchar(i + '0');
 		putchar(j + '0');
 		if (i != 8)
-		{	putchar(',');
+	{		putchar(',');
 			putchar(' ');
-		}
+	}
 	}
 	}
 	}
