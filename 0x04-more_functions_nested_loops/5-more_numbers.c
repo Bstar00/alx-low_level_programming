@@ -5,7 +5,6 @@
 * more_numbers - prints number from 0 to 14
 * Return: returns nothing
 */
-
 void more_numbers(void)
 {
 	int n1, int n2;
