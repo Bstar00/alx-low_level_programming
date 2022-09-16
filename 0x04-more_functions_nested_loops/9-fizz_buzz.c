@@ -3,7 +3,7 @@
 /**
 * main - prints the numbers from 1-100 but multiplies of three,
 *	 Fizz is printed in place of the no, Buzz is in place of multiples,
-* 	of 5 and FizzBuzz for both five and three.
+*	 of 5 and FizzBuzz for both five and three.
 *
 * Return: Always 0
 */
@@ -34,7 +34,6 @@ int main(void)
 	{
 	continue;
 	}
-	{
 	printf(" ")
 	}
 	printf("\n");
