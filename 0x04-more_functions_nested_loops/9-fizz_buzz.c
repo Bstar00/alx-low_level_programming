@@ -2,8 +2,8 @@
 
 /**
 * main - prints the numbers from 1-100 but multiplies of three,
-* Fizz is printed in place of the no, Buzz is in place of multiples,
-* of 5 and FizzBuzz for both five and three.
+*	 Fizz is printed in place of the no, Buzz is in place of multiples,
+* 	of 5 and FizzBuzz for both five and three.
 *
 * Return: Always 0
 */
