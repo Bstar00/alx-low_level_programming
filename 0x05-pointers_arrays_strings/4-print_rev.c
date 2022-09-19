@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
-* print_rev - function to prints a string in reverse order
-* @s: string to reverse
-* Return: nothing
+* print_rev - prints a string in reverse order
+* @s: String to reverse
+* Return: Nothing
 */
 
 void print_rev(char *s)
