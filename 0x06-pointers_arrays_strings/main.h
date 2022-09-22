@@ -1,9 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
 
-/**                                                                                                                                
- * void prototypes()                                                                                       
+/**
+ * void prototypes()
  * int prototypes()
+ * char prototypes()
  */
 
 int _putchar(char c);
