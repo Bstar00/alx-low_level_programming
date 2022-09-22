@@ -2,10 +2,9 @@
 
 /**
  * cap_string - function that capitalizes all words of a string.
- * @str: string to capitalize
- * Return: returns the capitalized string.
+ * @str: input the string
+ * Return: the pointer to dest
  */
-
 char *cap_string(char *str)
 {
 	int index = 0;
