@@ -1,26 +1,34 @@
 #include <stdio.h>
+
 /**
- * main - Entry point of funtion
- * Description: print possible combination of 2 digit numbers
- * Return: returns 0 at the end
+ * main - prints all possible combinations of two two-digit numbers.
+ *
+ * Return: 0
  */
 int main(void)
-{	int i, p;
+{
+	int i;
+	int j;
+
 	for (i = 0; i < 100; i++)
-		
-	{	for (p = 0; p < 100; p++)
-	{	if (p > i)
-		{	putchar((i / 10) + '0');
-			putchar((i % 10) + '0');
-			putchar(' ');
-			putchar((p / 10) + '0');
-			putchar((p % 10) + '0');
-			if (i != 98)
-			{	putchar(',');
+	{
+		for (j = 0; j < 100; j++)
+		{
+			if (j > i)
+			{
+				putchar(i / 10 + '0');
+				putchar(i % 10 + '0');
 				putchar(' ');
+				putchar(j / 10 + '0');
+				putchar(j % 10 + '0');
+				if (i * 100 + j != 9899)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-	}	}	
-	}	
+		}
+	}
 	putchar('\n');
 	return (0);
 }
