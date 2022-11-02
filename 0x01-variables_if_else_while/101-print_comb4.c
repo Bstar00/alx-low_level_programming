@@ -1,27 +1,41 @@
 #include <stdio.h>
+
 /**
- * main - Entry point of a function
+ * main - program that prints all possible different combinations
+ * of thress digits.
  *
- * Description: prints possible combo 0f 3
- * Return: returns 0 at then end (success)
+ * Return: 0
  */
 int main(void)
-{	int i, p, m;
-	for (i = 0; i <= 9; i++)
-{	for (p = 1; p <= 9; p++)
-{	for (m = 2; m <= 9; m++)	
-{	if (m > p && p > i)
-	{	putchar(i + '0');
-		putchar(p + '0');
-		putchar(m + '0');
-			if (i != 7)
-	{		putchar(',');
-			putchar(' ');
+{
+	int i;
+	int n;
+	int j;
+
+	for (i = 48; i < 58; i++)
+	{
+		for (n = 48; n < 58; n++)
+		{
+			if (n > i)
+			{
+				for (j = 48; j < 58; j++)
+				{
+					if (j > n)
+					{
+					putchar(i);
+					putchar(n);
+					putchar(j);
+					if (i == 55 && n == 56 && j == 57)
+					{
+						break;
+					}
+					putchar(',');
+					putchar(' ');
+					}
+				}
+			}
+		}
 	}
-	}
-}
-}
-}
 	putchar('\n');
 	return (0);
 }
