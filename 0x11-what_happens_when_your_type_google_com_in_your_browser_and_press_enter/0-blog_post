@@ -1,0 +1,15 @@
+What happens when you type https://www.google.com in your browser and press Enter
+Have you thought about what happens when you type https://www.google.com in your browser like Chrome or Mozilla and press Enter? let me walk you through the process with a concise explanation.
+
+First of all, https://www.google.com is called a URL or Uniform resources locator, colloquially termed a web address.
+
+Computers communicate with each other through IPs or Internet protocols i.e 102.89.46.67. Imagine having to know the exact IP of every site you visit, tedious right?
+
+To do this, your computer sends a request to a Domain Name System (DNS) server, which is like a phonebook for the internet. The DNS server looks up the IP address associated with “google.com” and sends it back to your computer. Your computer then uses that IP address to connect to the Google server.
+
+Once your computer is connected to the Google server, it sends a request for the homepage of the Google website. The Google server receives this request and responds by sending the homepage’s HTML code back to your computer.
+
+Now, your web browser comes into play. The browser interprets the HTML code and renders it as the Google homepage that you see on your screen. This includes displaying text, images, and other media that make up the page. Your browser may also make additional requests for images, scripts, and other resources needed to fully render the webpage.
+
+At this point, you can interact with the Google homepage. You can search for information, access various Google services, and navigate to other pages within the site. All of this happens through a series of requests and responses between your computer and the Google server.
+
