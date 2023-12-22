@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main -  main entry point
  *
  * Description: Prints numbers from 1 to 100 with "Fizz" for multiples of 3,
  *              "Buzz" for multiples of 5, and "FizzBuzz" for multiples of both.
