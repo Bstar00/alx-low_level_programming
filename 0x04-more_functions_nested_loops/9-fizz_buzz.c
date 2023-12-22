@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Return: void
+ * Return: 0
  */
 int main(void)
 {
@@ -23,10 +23,7 @@ int main(void)
 		}
 		else if (i % 5 == 0)
 		{
-		if (i < p)
-		printf("Buzz ");
-		else
-		printf("Buzz");
+			printf("Buzz ");
 		}
 		else
 		{
@@ -34,6 +31,9 @@ int main(void)
 		}
 		i++;
 	}
-	printf("\n");
+
+	// Print "Buzz" without a space after the loop
+	printf("Buzz\n");
+
 	return (0);
 }
